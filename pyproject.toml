@@ -1,0 +1,23 @@
+[project]
+name = "ragas-mvp"
+version = "0.1.0"
+description = "RAG pipeline evaluation with RAGAS on the amnesty_qa dataset"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3",
+    "langchain-openai>=0.3",
+    "langchain-community>=0.3",
+    "qdrant-client>=1.13",
+    "sentence-transformers>=3.0",
+    "ragas>=0.2",
+    "datasets>=3.0",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "numpy>=1.26",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+]

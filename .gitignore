@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+*.env
+
+# Extra folders
+docs/
+tasks/
+
+# Data files (large, reproducible)
+data/raw/
+data/results/
+reports/
+
+# Report outputs
+reports/figures/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
