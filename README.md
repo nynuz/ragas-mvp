@@ -19,7 +19,7 @@ The pipeline indexes the `vibrantlabsai/amnesty_qa` dataset into a local Qdrant 
 - **Sparse embeddings**: `naver/splade-cocondenser-ensembledistil` via sentence-transformers
 - **Generator LLM**: GPT-4.1-mini (OpenAI)
 - **Evaluator LLM**: configurable via `src/config.py`
-- **Evaluation framework**: RAGAS v0.2+
+- **Evaluation framework**: RAGAS [https://www.ragas.io/](https://www.ragas.io/)
 - **RAG chain**: LangChain (prompt template + LLM + output parser)
 - **Package manager**: uv
 
